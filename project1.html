@@ -54,16 +54,31 @@
 								<div class="inner">
 
 									<h3 class="major">Description</h3>
-									<p>For this project, I ... (technical description here)</p>
+									<p>My inspiration for this project is rooted in the absurdly long amount of time that it would 
+										take my SWE (Society of Women Engineers) chapter’s Recording Secretary to input our members' 
+										attendance points into a public Google Sheets document. I decided that I wanted to write a 
+										script to automate this process. Using JavaScript in Google Apps Scripts, I was able to 
+										create a solution for our problem. </p>
 
-									<p>As a result of this project, I learned ... What I liked most about this project ... </p>
+									<p>The script takes in the URL of the Google Form that was used as a Sign-In for the event and 
+										the name of the event as input from the Google Sheet. Based on the data from the Google Form, 
+										the script will automatically create a column for the event and populate points for existing 
+										members, update exsiting member information, add new members as rows, recalculate Total, 
+										Non-GBM, and GBM points, and color code the event column. This program reduced the time spent 
+										on populating attendance points from 30 - 20 minutes to 1 minute - 30 seconds.  </p>
 
 									<h3 class="major">Demo</h3>
 									
-									<video  width="960" height="720" autoplay loop>
+									<video  width="960" height="584" autoplay loop>
 										<source src="demos/points_tracker_demo.mp4" type="video/mp4">
 									</video>
 									<p>This first demo video is demonstrating how the user would input the Google Forms URL into the Apps Script.</p>
+									
+									<video  width="960" height="584" autoplay loop>
+										<source src="demos/points_tracker_demo_2.mp4" type="video/mp4">
+									</video>
+									<p>Once the input is taken in, you can see the the Google Sheet automatically fill in the points, 
+										add in new members, and recalculate GBM, non-GBM, and Total points, and more.</p>
 
 									<!-- <section class="features">
 										<article>
@@ -86,38 +101,36 @@
 					</section>
 
 				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Find me at</h2>
-							<!-- <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
+				<section id="footer">
+					<div class="inner">
+						<h2 class="major"> </h2>
+						<!-- <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
 								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form> -->
-							<ul class="contact">
-								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/catherinepham2/">https://www.linkedin.com/in/catherinepham2/</a></li>
-								<li class="icon brands fa-github"><a href="https://github.com/catherinepham">https://github.com/catherinepham</a></li>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
 							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+						</form> -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/catherinepham2/" class="icon brands fa-linkedin"><span class="linkedin"></span></a></li>
+							<li><a href="https://github.com/catherinepham" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						</ul>
+						
+					</div>
+				</section>
 
 			</div>
 

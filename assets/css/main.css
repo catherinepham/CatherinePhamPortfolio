@@ -29,6 +29,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+video { /*width="960" height="720"*/
+	height: 360;
+	width: 480;
+	
+}
+
 body {
 	line-height: 1;
 }
